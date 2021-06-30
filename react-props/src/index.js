@@ -68,8 +68,9 @@ function BookList () {
         author = 'Emilie Robertson'
       > 
       {/* Children Props */}
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero molestias quo commodi. Optio doloremque, ad esse minus veniam laborum dicta?</p>
       
-      </Book>
+      </Book> // we need close
         
       <Book 
         img='https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80'
@@ -82,6 +83,7 @@ function BookList () {
 }
 
 const Book = (props) => {
+  const { img, altText, title, author } = props
   return (
     <article className='book'>
         <img 
@@ -90,6 +92,7 @@ const Book = (props) => {
          />
         <h3>{props.title}</h3>
         <h6>{props.author}</h6>
+        {props.children} // children props
     </article>
   )
 }
