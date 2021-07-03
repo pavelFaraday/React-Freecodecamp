@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-// starts with use
+
+// useState is a function
+// Every Hook starts with 'use'
 // component must be uppercase
 // invoke inside function/component body
 // don't call hooks conditonally
