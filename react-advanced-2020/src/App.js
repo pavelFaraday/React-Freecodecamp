@@ -1,11 +1,11 @@
 import React from 'react'
-import UseEffectFetchData from './tutorial/2-useEffect/final/3-useEffect-fetch-data'
+import MultipleReturns from './tutorial/3-conditional-rendering/final/1-multiple-returns'
 
 
 function App() {
   return (
     <div className='container'>
-      <UseEffectFetchData />
+      <MultipleReturns />
     </div>
   )
 }
