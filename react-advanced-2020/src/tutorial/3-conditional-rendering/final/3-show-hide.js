@@ -14,6 +14,7 @@ const ShowHide = () => {
 
 const Item = () => {
   const [size, setSize] = useState(window.innerWidth);
+  
   const checkSize = () => {
     setSize(window.innerWidth);
   };
