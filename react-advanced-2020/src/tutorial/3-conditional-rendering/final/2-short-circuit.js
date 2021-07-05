@@ -6,7 +6,13 @@ const ShortCircuit = () => {
   const [text, setText] = useState('');
   const [isError, setIsError] = useState(false);
   // const firstValue = text || 'hello world';
-  // const secondValue = text && 'hello world';
+  // const secondValue = text && 'hello world'; 
+
+  // ||  --> if text is true (not empty, with some value), than give me value of text
+  // ||  --> if text is false (empty, with no value), than give me 'hello world'
+
+  // && --> if text is true (not empty, with some value), than give me 'hello world'
+  // && --> if text is false (empty, with no value), than give me nothing (Logical Strict Operator)
 
   return (
     <>
