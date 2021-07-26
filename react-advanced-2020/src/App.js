@@ -1,13 +1,12 @@
-import React from 'react'
-import ShowHide from './tutorial/3-conditional-rendering/final/3-show-hide'
-
+import React from "react";
+import ControlledInputs from "./tutorial/4-forms/final/1-controlled-inputs";
 
 function App() {
-  return (
-    <div className='container'>
-      <ShowHide />
-    </div>
-  )
+	return (
+		<div className="container">
+			<ControlledInputs />
+		</div>
+	);
 }
 
-export default App
+export default App;
