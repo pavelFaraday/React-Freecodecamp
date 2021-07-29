@@ -1,10 +1,10 @@
 import React from "react";
-import ControlledInputs from "./tutorial/4-forms/final/2-multiple-inputs";
+import UseRefBasics from "./tutorial/5-useRef/final/1-useRef-basics";
 
 function App() {
 	return (
 		<div className="container">
-			<ControlledInputs />
+			<UseRefBasics />
 		</div>
 	);
 }
