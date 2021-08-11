@@ -10,7 +10,7 @@ Main scheme: So useReducer is looking for 'reducer' (the function that manipulat
 ----------------
 'reducer' parameter is an function, that takes an old state and takes it in action and speeds back the new state. It is a simple function:
 
-state - state before update;
+state - current state before update;
 action - what are we trying to do; 
 
 const reducer = (state, action) => {
