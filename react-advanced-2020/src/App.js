@@ -1,10 +1,10 @@
 import React from "react";
-import ContextAPI from "./tutorial/8-useContext/final/1-context-api";
+import Example from "./tutorial/9-custom-hooks/final/1-fetch-example";
 
 function App() {
 	return (
 		<div className="container">
-			<ContextAPI />
+			<Example />
 		</div>
 	);
 }
